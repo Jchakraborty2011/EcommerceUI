@@ -46,7 +46,7 @@ import { JwtModule } from '@auth0/angular-jwt';
     ReactiveFormsModule,
     HttpClientModule,
     RouterModule,
-    JwtModule.forRoot({
+    JwtModule.forRoot({q
       config: {
         tokenGetter: () => {
           return localStorage.getItem('user');
